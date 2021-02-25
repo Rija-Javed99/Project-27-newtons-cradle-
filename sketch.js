@@ -108,17 +108,7 @@ function draw() {
   background(230);
   roofObject.display();
 
-  rope1.display()
-  rope2.display()
-  rope3.display()
-  rope4.display()
-  rope5.display()	
-  bobObject1.display();
-  bobObject2.display();
-  bobObject3.display();
-  bobObject4.display();
-  bobObject5.display();
- 
+  //display the objects created
   
   
 	
