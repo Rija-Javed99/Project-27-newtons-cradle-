@@ -23,12 +23,20 @@ function setup() {
 
 	//creaye roof
 
-	//bob diameter given for calculation of no distance
+	
+	
 	bobDiameter=40;
 
 	startBobPositionX=width/2;
 	startBobPositionY=height/4+500;
-	//create all bobObjects
+	
+	
+	
+	bobObject1=new bob(startBobPositionX-bobDiameter*2,startBobPositionY,bobDiameter);
+	bobObject2=new bob(startBobPositionX-bobDiameter,startBobPositionY,bobDiameter);
+	bobObject3=new bob(startBobPositionX,startBobPositionY,bobDiameter);
+	bobObject4=new bob(startBobPositionX+bobDiameter,startBobPositionY,bobDiameter);
+	bobObject5=new bob(startBobPositionX+bobDiameter*2,startBobPositionY,bobDiameter);
 	
 	
 	
