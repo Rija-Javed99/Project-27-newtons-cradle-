@@ -31,14 +31,7 @@ function setup() {
 	startBobPositionY=height/4+500;
 	
 	
-	
-	bobObject1=new bob(startBobPositionX-bobDiameter*2,startBobPositionY,bobDiameter);
-	bobObject2=new bob(startBobPositionX-bobDiameter,startBobPositionY,bobDiameter);
-	bobObject3=new bob(startBobPositionX,startBobPositionY,bobDiameter);
-	bobObject4=new bob(startBobPositionX+bobDiameter,startBobPositionY,bobDiameter);
-	bobObject5=new bob(startBobPositionX+bobDiameter*2,startBobPositionY,bobDiameter);
-	
-	
+	//create bobs
 	
 	
 
@@ -129,7 +122,7 @@ function draw() {
 function keyPressed() {
   	if (keyCode === UP_ARROW) {
 
-    	Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-50,y:-45});
+    //apply force
 
   	}
 }
